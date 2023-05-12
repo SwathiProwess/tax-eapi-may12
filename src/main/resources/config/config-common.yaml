@@ -1,0 +1,12 @@
+# Common File to be use in All env
+application:
+  name: "iewc-taxrequest-eapi"
+milestone:
+  category: "LOG"
+
+#logging info
+
+source: "iewc-user"
+target: "sap-taxrequest-papi"
+requestMessage: "Received taxrequest from iewc user"
+responseMessage: "Response sent back to iewc user"
